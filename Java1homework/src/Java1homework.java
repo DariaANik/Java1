@@ -16,6 +16,5 @@ public class Java1homework {
         float f = 5.0f;
         boolean g = true;
         char h1= 250;
-        String i = "Hello world";
     }
 }
