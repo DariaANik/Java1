@@ -52,10 +52,10 @@ public class HomeworkLesson7 {
 
 class Cat1 {
     protected String name;
-    int appetite;
-    boolean full;
+    protected int appetite;
+    protected boolean full;
 
-    public Cat1(String name, int appetite, boolean full) {
+    Cat1(String name, int appetite, boolean full) {
         this.name = name;
         this.appetite = appetite;
         this.full = full;
@@ -65,7 +65,7 @@ class Cat1 {
 class Plate {
     private int food;
 
-    public Plate(int food) {
+    Plate(int food) {
         this.food = food;
     }
 
